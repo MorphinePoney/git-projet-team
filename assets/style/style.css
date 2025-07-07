@@ -16,29 +16,16 @@ header {
 .header-menu {
     background-color: lightgreen;
     display: flex;
-    gap: 20px;
+    padding: 10px;
+    margin: 40px;
+
 }
 
-nav {
-    margin: 0;
-    background-color: lightgreen;
-    position: sticky;
-    top: 0;
+.deroulant li{
+    float: left;
+    width: 200px;
 }
 
-nav ul {
-    list-style-type: none;
-}
 
-nav ul li {
-    text-align: center;
-}
 
-.sous {
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: white;
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-}
+
