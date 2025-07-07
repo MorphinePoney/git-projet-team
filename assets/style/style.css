@@ -18,12 +18,17 @@ header {
     display: flex;
     padding: 10px;
     margin: 40px;
+    list-style-type: none;
 
 }
 
 .deroulant li{
     float: left;
     width: 200px;
+}
+
+.sous{
+    list-style-type: none;
 }
 
 #recipes {
