@@ -13,23 +13,22 @@ header {
     background-color: lightgreen;
 }
 
-.header-menu {
-    background-color: lightgreen;
+ul{
     display: flex;
-    padding: 10px;
-    margin: 40px;
-    list-style-type: none;
-
+    align-items: center;
+    gap: 15px;
 }
 
-.deroulant li{
-    float: left;
-    width: 200px;
-}
-
-.sous{
+ul li{
     list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 #recipes {
     text-align: center;
